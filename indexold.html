@@ -1,0 +1,8 @@
+<?php
+ $ign = $_GET['INPUT GOES IN HERE']; 
+ echo $ign;
+ include_once('HypixelPHP.php');
+ $HypixelPHP = new HypixelPHP\HypixelPHP(['api_key' => '8a7b8e46-542a-4d65-b15f-d2ccb80f4b44']); 
+  $player = $HypixelPHP->getPlayer([\HypixelPHP\KEYS::PLAYER_BY_NAME => $ign]);
+if ($player != null) { ?> 
+?>

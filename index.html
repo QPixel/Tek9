@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Teknologika</title>  <!-- Sets title to teknoligika-->
+<meta charset="utf-8">
+<!-- Adds better mobile support -->
+<meta name="viewport" content="width=device-width, initial-scale=1"
+<!-- Adds bootstrap to html -->
+ <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+<!-- Adds personal css -->
+<link rel="stylesheet" href="assets/css/main.css">
+<link rel="preload" href="https://files.classcraft.com/classcraft-assets/fonts/museo_100.woff" as="font" type="font/woff" crossorigin>
+
+
+
+</head>
+
+<body onload="loaderFunction()" style="margin:0;">
+ <div id="loader" class="loader"></div> 
+ <div style="display:none;" id="myDiv" class="animate-bottom">
+<header class="container-fluid">
+
+<div class="row">
+	
+	<nav class="navbar navbar-expand-lg navbar-light" style="background-color: #f7f9f9 ">
+	 <a class="navbar-brand" href="#"><b>Teknologika</b></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+	<p><a href="adminpanel.html">Teacher</a></p>
+	<p><a href="volumemeter.html">Volume Meter</a></p>
+	
+	</nav>
+</div>
+
+<section class="jumbotron">
+<div class="default-card">
+
+
+<div class="fixed-left">
+  <div class="card" style="width: 18rem;">
+  
+  <div class="card-body">
+    <h5 class="card-title">Eastern Alliance</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+  </div>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item">Team Level <div class="progress">
+  <div class="progress-bar bg-warning" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+</div></li>
+    <li class="list-group-item">Team Health<div class="progress">
+  <div id="eastHealth" class="progress-bar bg-danger"role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 100%"></div>
+</div></li>
+ 
+  </ul>
+ <script>
+function setEasternHealth(healthValue) {
+document.getElementById("eastHealth").style.width = healthValue + "%";}
+</script>
+    
+  </div>
+</div>
+</div>
+<div class="default-card-1">
+
+<div class="fixed-left">
+  <div class="card" style="width: 18rem;">
+ 
+  <div class="card-body">
+    <h5 class="card-title">Mid-Eastern Alliance</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+  </div>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item">Team Level <div class="progress">
+  <div class="progress-bar bg-warning" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+</div></li>
+    <li class="list-group-item">Team Health<div class="progress">
+  <div id="mideastHealth" class="progress-bar bg-danger"role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%"></div>
+</div></li>
+ 
+  </ul>
+ <script>
+ function setMidEastHealth(healthValue) {
+ document.getElementById("mideastHealth").style.width = healthValue + "%";}
+ </script>
+    
+  </div>
+</div>
+ </div>
+ <div class="default-card-2">
+ <div class="fixed-left">
+  <div class="card" style="width: 18rem;">
+  
+  <div class="card-body">
+    <h5 class="card-title">Mid-Western Alliance</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+  </div>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item">Team Level <div class="progress">
+  <div class="progress-bar bg-warning" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+</div></li>
+    <li class="list-group-item">Team Health<div class="progress">
+  <div id="midwestHealth" class="progress-bar bg-danger"role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%"></div>
+</div></li>
+ 
+  </ul>
+ 
+<script>
+let setMidWestHealth = (healthValue) => {
+document.getElementById("midwestHealth").style.width = healthValue + "%";}
+</script>
+  </div>
+</div>
+ 
+ 
+ 
+ </div>
+<div class="default-card-3">
+<div class="fixed-left">
+  <div class="card" style="width: 18rem;">
+  
+  <div class="card-body">
+    <h5 class="card-title">Northern Alliance</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+  </div>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item">Team Level <div class="progress">
+  <div class="progress-bar bg-warning" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+</div></li>
+    <li class="list-group-item">Team Health<div class="progress">
+  <div id="northHealth" class="progress-bar bg-danger"role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%"></div>
+</div></li>
+ 
+  </ul>
+ 
+    
+  </div>
+</div>
+</div>
+<div class="default-card-4">
+<div class="fixed-left">
+  <div class="card" style="width: 18rem;">
+  
+  <div class="card-body">
+    <h5 class="card-title">Southern Alliance</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+  </div>
+  <ul class="list-group list-group-flush">
+     <li class="list-group-item">Team Level <div class="progress">
+  <div class="progress-bar bg-warning" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+</div></li>
+    <li class="list-group-item">Team Health<div class="progress">
+  <div id="southHealth" class="progress-bar bg-danger"role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%"></div>
+</div></li>
+ 
+  </ul>
+ 
+    
+  </div>
+</div>
+</div>
+<div class="default-card-5">
+<div class="fixed-left">
+  <div class="card" style="width: 18rem;">
+  
+  <div class="card-body">
+    <h5 class="card-title"> Western Alliance</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+  </div>
+  <ul class="list-group list-group-flush">
+     <li class="list-group-item">Team Level <div class="progress">
+  <div class="progress-bar bg-warning" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+</div></li>
+    <li class="list-group-item">Team Health<div class="progress">
+  <div id="westHealth" class="progress-bar bg-danger"role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%"></div>
+</div></li>
+ 
+  </ul>
+ 
+    
+  </div>
+</div>
+</div>
+</section>
+
+
+
+</header>
+<header class="container-fluid">
+</header>
+<script>
+var myVar;
+
+function loaderFunction() {
+    myVar = setTimeout(showPage, 2000);
+}
+
+function showPage() {
+document.getElementById("loader").style.display = "none";
+document.getElementById("myDiv").style.display = "block";
+}
+</script>
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script> 
+<!-- jQuery Custom Scroller CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
+<p>&copy 2018 QPixelDev</p>
+</div>
+</body>
+
+
+
+
+
+
+
+</html>
