@@ -5,7 +5,11 @@ function myFunction() {
   var num = Math.round(Math.random() * 17) + 1;
   var value = "ID: " + num;
   
-  
+if (num === 17) {
+	value = "Aether";
+} else if (num === 18){
+	value = "Terrestrial";
+}
   $("#circle").css("-webkit-animation", "flip 1s cubic-bezier(1,.37,.63,.82)")
   
   setTimeout(function(){$("#number").text(value)}, 500);; 
