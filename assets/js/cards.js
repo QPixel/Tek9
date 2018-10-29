@@ -12,16 +12,16 @@ function aetherredirect() {
 }
 if (num === 17) {
 	value = "Aether";
-	setTimeout(function() {
+	/*setTimeout(function() {
     aetherredirect();
-}, (3 * 1000));
+}, (3 * 1000));*/
 	
 } else if (num === 18){
 	value = "Terrestrial"; 
 	
-setTimeout(function() {
+/*setTimeout(function() {
     terrestrialredirect()
-}, (3 * 1000));
+}, (3 * 1000));*/
 
 }
   $("#circle").css("-webkit-animation", "flip 1s cubic-bezier(1,.37,.63,.82)")
