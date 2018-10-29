@@ -7,11 +7,22 @@ function myFunction() {
 function terrestrialredirect() {
  window.location.replace("https://qpixel.pw/Tek9/terrestrialmer.html");
 }
+function aetherredirect() {
+	window.location.replace("https://qpixel.pw/Tek9/aetherrmer.html");
+}
 if (num === 17) {
 	value = "Aether";
+	setTimeout(function() {
+    aetherredirect();
+}, (3 * 1000));
+	
 } else if (num === 18){
 	value = "Terrestrial"; 
-	terrestrialredirect()
+	
+setTimeout(function() {
+    terrestrialredirect()
+}, (3 * 1000));
+
 }
   $("#circle").css("-webkit-animation", "flip 1s cubic-bezier(1,.37,.63,.82)")
   
