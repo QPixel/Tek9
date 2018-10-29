@@ -4,11 +4,14 @@ function myFunction() {
   
   var num = Math.round(Math.random() * 17) + 1;
   var value = "ID: " + num;
-  
+function terrestrialredirect() {
+ window.location.replace("https://qpixel.pw/Tek9/terrestrialmer.html");
+}
 if (num === 17) {
 	value = "Aether";
 } else if (num === 18){
-	value = "Terrestrial";
+	value = "Terrestrial"; 
+	terrestrialredirect()
 }
   $("#circle").css("-webkit-animation", "flip 1s cubic-bezier(1,.37,.63,.82)")
   
