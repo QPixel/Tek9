@@ -13,7 +13,7 @@ body {
 #card-number {
   margin-top: 15%;
   text-align: center;
-  font-size: 70pt;
+  font-size: 72pt;
   transform-style: preserve-3d;
   perspective: 1000px;
 }
@@ -22,15 +22,15 @@ body {
   z-index: 1;
   display: inline-block;
   position: relative;
-  top: 105px;
+  top: 125px;
   left: px;
   text-align:center;
 }
 
 #circle {
   background: #3d57a5;
-  width: 450px;
-  height: 450px;
+  width: 475px;
+  height: 475px;
   border-radius: 20%;
   display: inline-block;
   position: static;
