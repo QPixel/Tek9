@@ -1,5 +1,5 @@
 body {
-  background-color: #408bd8c9;
+
   color: white;
   font-family: 'Oswald', sans-serif;
   -webkit-touch-callout: none;
@@ -11,7 +11,7 @@ body {
 }
 
 #card-number {
-  margin-top: 5%;
+  margin-top: 15%;
   text-align: center;
   font-size: 70pt;
   transform-style: preserve-3d;
@@ -38,10 +38,22 @@ body {
   -webkit-animation: updown 2s linear infinite;
   -webkit-transform-origin: 0px 0px -750px;
 }
+#container {
+  margin-top: 50%;
+}
 #title {
-  text-align:center;
-  font-size:26px;
-  margin-bottom: 5%;
+  position: absolute;
+  top: 5%;
+  left: 0;
+  right: 0;
+  color: #FFF;
+  text-align: center;
+  font-family: "lato", sans-serif;
+  font-weight: 300;
+  font-size: 50px;
+  letter-spacing: 10px;
+  margin-top: -60px;
+  padding-left: 10px;
 }
 #circle:hover {
   background: #445790;

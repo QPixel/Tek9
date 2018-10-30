@@ -2,7 +2,7 @@ function myFunction() {
   $("#helper-text").css("opacity", "0.3");
   
   
-  var num = Math.round(Math.random() * 17) + 1;
+  var num = Math.round(Math.random(Math.random()) * 17) + 1;
   var value = "ID: " + num;
 function terrestrialredirect() {
  window.location.replace("https://qpixel.pw/Tek9/terrestrialmer.html");
