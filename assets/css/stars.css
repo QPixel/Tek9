@@ -55,19 +55,7 @@ html {
   box-shadow: 1743px 1744px #FFF , 1623px 1289px #FFF , 1283px 556px #FFF , 702px 247px #FFF , 954px 1856px #FFF , 1793px 1378px #FFF , 1898px 1132px #FFF , 345px 998px #FFF , 94px 1198px #FFF , 785px 380px #FFF , 1270px 150px #FFF , 183px 1374px #FFF , 1654px 371px #FFF , 1291px 1696px #FFF , 1878px 1852px #FFF , 1930px 1771px #FFF , 1824px 735px #FFF , 932px 185px #FFF , 1595px 1713px #FFF , 221px 1534px #FFF , 1699px 1835px #FFF , 1791px 528px #FFF , 142px 1736px #FFF , 1342px 1712px #FFF , 701px 419px #FFF , 1951px 1172px #FFF , 1618px 36px #FFF , 1254px 169px #FFF , 1684px 1048px #FFF , 786px 1578px #FFF , 1325px 704px #FFF , 1963px 603px #FFF , 1920px 342px #FFF , 1133px 1831px #FFF , 352px 282px #FFF , 1606px 1389px #FFF , 1629px 530px #FFF , 1323px 1592px #FFF , 916px 1655px #FFF , 1318px 1567px #FFF , 565px 718px #FFF , 1755px 1861px #FFF , 1497px 1848px #FFF , 1689px 1299px #FFF , 350px 906px #FFF , 1329px 942px #FFF , 518px 750px #FFF , 773px 305px #FFF , 275px 1798px #FFF , 81px 203px #FFF , 1815px 164px #FFF , 25px 370px #FFF , 819px 949px #FFF , 169px 60px #FFF , 1363px 995px #FFF , 445px 179px #FFF , 758px 4px #FFF , 1495px 837px #FFF , 1817px 1013px #FFF , 823px 1507px #FFF , 861px 1554px #FFF , 311px 1506px #FFF , 880px 1438px #FFF , 826px 1037px #FFF , 9px 1743px #FFF , 325px 610px #FFF , 894px 1524px #FFF , 1553px 419px #FFF , 1498px 891px #FFF , 241px 600px #FFF , 337px 1153px #FFF , 287px 1843px #FFF , 1575px 1092px #FFF , 258px 382px #FFF , 1003px 1130px #FFF , 143px 676px #FFF , 910px 1985px #FFF , 660px 1028px #FFF , 1021px 1586px #FFF , 1594px 1198px #FFF , 1555px 975px #FFF , 162px 145px #FFF , 453px 1532px #FFF , 409px 1745px #FFF , 791px 991px #FFF , 1079px 881px #FFF , 1157px 600px #FFF , 1357px 1634px #FFF , 631px 452px #FFF , 1060px 1727px #FFF , 1988px 1124px #FFF , 1798px 192px #FFF , 1185px 883px #FFF , 1561px 233px #FFF , 549px 195px #FFF , 1795px 633px #FFF , 1751px 795px #FFF , 1969px 731px #FFF , 1516px 1918px #FFF , 1033px 500px #FFF;
 }
 
-#title {
-  position: absolute;
-  top: 50%;
-  left: 0;
-  right: 0;
-  color: #FFF;
-  text-align: top;
-  font-family: "lato", sans-serif;
-  font-weight: 300;
-  font-size: 50px;
-  letter-spacing: 10px;
-  margin-top: -60px;
-  padding-left: 10px;
+
 }
 #title span {
   background: -webkit-linear-gradient(white, #38495a);
