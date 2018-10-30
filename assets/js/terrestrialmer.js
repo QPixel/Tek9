@@ -2,7 +2,7 @@ function myFunction() {
   $("#helper-text").css("opacity", "0.3");
   
   
-  var num = Math.round(Math.random(Math.random()) * 10) + 1;
+  var num = Math.floor(Math.random() * (11 - 1) + 1);
   var value = num
   
 if (num === 1) {
@@ -24,7 +24,7 @@ if (num === 1) {
 } else if (num === 9){
 	value = "Full AP"; 
 } else if (num === 10){
-	value = "Finding New Areas"; 
+	value = "Finding New Areas";
 } else if (num === 11){
 	value = "Thingy"; 
 } else {
