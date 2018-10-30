@@ -1,0 +1,75 @@
+body {
+  background-color: #408bd8c9;
+  color: white;
+  font-family: 'Oswald', sans-serif;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+#card-number {
+  margin-top: 5%;
+  text-align: center;
+  font-size: 70pt;
+  transform-style: preserve-3d;
+  perspective: 1000px;
+}
+
+#number {
+  z-index: 1;
+  display: inline-block;
+  position: relative;
+  top: 105px;
+  left: px;
+  text-align:center;
+}
+
+#circle {
+  background: #3d57a5;
+  width: 450px;
+  height: 450px;
+  border-radius: 20%;
+  display: inline-block;
+  position: static;
+  z-index: 0;
+  -webkit-animation: updown 2s linear infinite;
+  -webkit-transform-origin: 0px 0px -750px;
+}
+#title {
+  text-align:center;
+  font-size:26px;
+  margin-bottom: 5%;
+}
+#circle:hover {
+  background: #445790;
+}
+
+@-webkit-keyframes updown {
+    0%   {transform: rotateX(0deg);}
+    25%   {transform: rotateX(5deg);}
+    50%   {transform: rotateX(0deg);}
+    75%   {transform: rotateX(-5deg);}
+    100% {transform: rotateX(0deg);}
+} 
+
+@-webkit-keyframes flip {
+    0%   {transform: rotateX(0deg);}
+    100% {transform: rotateX(360deg);}
+} 
+
+#helper-text {
+  text-align: center;
+  font-size: 20px;
+  color: #ecf0f1;
+  position: relative;
+  margin-top: 4%;
+  opacity: 1;
+  -webkit-transition: opacity 6s;
+  -moz-transition: opacity 6s;
+  -ms-transition: opacity 6s;
+  -o-transition: opacity 6s;
+  transition: opacity 6s;
+}
