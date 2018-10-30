@@ -1,5 +1,5 @@
 body {
-  background-color: #408bd8c9;
+  background-color: #fc506a;
   color: white;
   font-family: 'Oswald', sans-serif;
   -webkit-touch-callout: none;
@@ -16,6 +16,7 @@ body {
   font-size: 70pt;
   transform-style: preserve-3d;
   perspective: 1000px;
+  
 }
 
 #number {
@@ -28,7 +29,7 @@ body {
 }
 
 #circle {
-  background: #3d57a5;
+  background: #fc6d50cf;
   width: 450px;
   height: 450px;
   border-radius: 20%;
@@ -44,7 +45,7 @@ body {
   margin-bottom: 5%;
 }
 #circle:hover {
-  background: #445790;
+  background: #ea664ccf;
 }
 
 @-webkit-keyframes updown {
