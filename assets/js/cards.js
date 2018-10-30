@@ -8,7 +8,7 @@ function terrestrialredirect() {
  window.location.replace("https://qpixel.pw/Tek9/terrestrialmer.html");
 }
 function aetherredirect() {
-	window.location.replace("https://qpixel.pw/Tek9/aetherrmer.html");
+	window.location.replace("https://qpixel.pw/Tek9/aethermer.html");
 }
 if (num === 17) {
 	value = "Aether";
